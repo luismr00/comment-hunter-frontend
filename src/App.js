@@ -79,8 +79,8 @@ class App extends Component {
         <h1>Hello from React</h1>
         
         <div className="graph-container">
-          {/* <BubbleChart data={this.reDraw} useLabels /> */}
-          <Sunburst
+          <BubbleChart data={this.reDraw} useLabels />
+          {/* <Sunburst
           data={SunburstData}
           onSelect={this.onSelect}
           scale="linear" // or exponential
@@ -90,7 +90,7 @@ class App extends Component {
           keyId="anagraph"
           width="580"
           height="500"
-        />
+        /> */}
         </div>
         
       </div>
